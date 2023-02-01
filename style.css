@@ -1,0 +1,95 @@
+body{
+    height: 400px;
+    background-image: linear-gradient(to right,#155, #155e14, #155e14,  #155 );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: antiquewhite;
+}
+
+html, body
+{
+  height: 100%;
+  margin: 0;
+  font-family: 'Righteous';
+  font-weight: 100;
+}
+
+.header
+{
+	color: white;
+	font-family: 'Papyrus';
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+	font-weight: bold;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);
+    float: none;
+    border-radius: 15px;
+}
+
+#login_button
+{
+	width: 50%;
+    border-radius: 15px;
+     background-color: rgb(11, 56, 16);
+}
+#user_name{
+    width: 50%;
+}
+#logo{
+    float:top;
+    border-radius: 50px;
+    border-width: 30px;
+    width: 20%;
+    height: 30%;
+    margin-top: 30px;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+  .mission{
+    float: none;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+#search_div{
+  width: fit-content;
+  float: none;
+  height: fit-content;
+}
+#logout{
+  color:firebrick;
+}
+.rule{
+  font-weight: lighter;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
